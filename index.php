@@ -81,23 +81,23 @@
 						<div class="col-lg-12">
 							<div class="team team-list row">
 								<div class="team-desc col-sm">
-									<div class="team-content" style="text-align: justify;">
-										Distancia, una propuesta, un SÍ... <b>¡Nos casamos!</b>. No siempre ha sido un camino de rosas, lo admitimos, pero gracias a esos momentos no tan fáciles nuestro amor ha madurado, crecicdo y florecido. Lo más bonito es ver cómo crecemos tanto en pareja como individualmente cada día, y cómo cumplimos nuestras metas juntos.
+									<div class="team-content" style="text-align: center;">
+										Distancia, una propuesta, un SÍ y una decisión que tomamos los dos. Nuestro amor ha crecido, madurado y florecido, a veces no ha sido sencillo; no lo negamos, difícil y muy arriesgado, pero... siempre sorprendente. Cada crecimiento personal y de pareja que hemos tenido ha sido gratificante, vernos el uno al otro crecer en todas nuestras áreas y ser parte de ello.
 										<br>
 										<br>
-										Individualmente, y cada uno a su manera, somo aventureros, dedicados y fuertes de carácter. Pero lo bonito y lo que nos hace tan consistentes como pareja es que cuando uno está mal el otro está dispuesto a ayudarle, eso es lo que nos hace invencibles como equipo.
+										Somos aventureros, dedicados, fuertes de carácter; los desafíos que hemos enfrentado nos han ayudado a crecer y madurar; debemos agradecer a esos retos porque con ellos nos hemos dado cuenta que juntos podemos lograr lo que nos proponemos.
 										<br>
 										<br>
-										Tan sólo podemos decir que nuestra vida en estos momentos se encuentra completa y estamos listos para compartir el resto de nuestros días juntos.
+										Tan solo podemos decir que nuestra vida en estos momentos se encuentra completa y estamos listos para compartir el resto de nuestros días juntos.
 										<br>
 										<br>
 										Decidimos comenzar esta nueva etapa en nuestras vidas y nos prometemos recorrer el mundo entero, no cocinar los domingos y ver películas, comer tacos una vez al mes y no dormir enojados.
 										<br>
 										<br>
-										<b>Yo (Mikel)</b> me despertaré antes para hacerte el café todas las mañanas y dormir abrazándote aunque se me duerma el brazo
+										<b>Mikel:</b> yo me despertaré antes para hacerte el café todas las mañanas y dormir abrazándote aunque se me duerma el brazo.
 										<br>
 										<br>
-										<b>Yo (Fer)</b> prometo no invadir tu lado del closet aunque ya no tenga espacio, escuchar tu música en el coche aunque no me guste y a no tocar tu pantalla cuando señale algo.
+										<b>Fer:</b> Yo prometo no invadir tu lado del closet aunque ya no tenga espacio, escuchar tu música en el coche aunque no me guste y a no tocar tu pantalla cuando señale algo. 
 										<br>
 										<br>
 										<b>Prometemos</b> hacer cualquier cosa para tener ataques de risa, porque el matrimonio es más que un contrato, es la decisión consciente de querer empezar un camino de crecimiento juntos.
@@ -144,7 +144,7 @@
 									<img src="images/cena.jpeg" alt="Foto regalos de sobre">
 								</div>
 								<div class="fbox-content">
-									<h3>Cena<span class="subtitle">La cena de tres tiempos se servirá de 21:00 a 22:00</span></h3>
+									<h3>Cena<span class="subtitle">La cena se servirá de 21:00 a 22:00</span></h3>
 								</div>
 							</div>
 						</div>
@@ -213,7 +213,7 @@
 					</div>
 					<div class="line topmargin-sm mb-0"></div>
 					<div class="clear"></div>
-					<div id="section-hotels" class="heading-block text-center topmargin-sm page-section">
+					<div id="section-trip" class="heading-block text-center topmargin-sm page-section">
 						<h2>Planes del viaje.</h2>
 						<span>¡Nos vamos a <b>Nuevo Vallarta</b>!</span>
 					</div>
@@ -235,7 +235,7 @@
 
 					<div id="section-rsvp" class="heading-block text-center page-section">
 						<h2>Confirma tu asistencia.</h2>
-						<span>Confirmanos la asistencia por WhatsApp.</span>
+						<span>Confírmanos la asistencia por WhatsApp.</span>
 					</div>
 
 					<div class="row mb-3 topmargin">
@@ -261,10 +261,7 @@
 			<div id="copyrights">
 
 				<div class="container center clearfix">
-
-					Copyrights &copy; <?= date('Y') ?> All Rights Reserved by SemiColonWeb<br>
-					<div class="copyright-links"><a href="https://themeforest.net/user/SemiColonWeb/portfolio?ref=SemiColonWeb">Portfolio</a> / <a href="https://twitter.com/smclweb">Twitter</a></div>
-
+					Mikel & Fer<br>
 				</div>
 
 			</div><!-- #copyrights end -->
