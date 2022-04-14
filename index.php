@@ -208,10 +208,10 @@ const ROOT_PATH = "/nuevoBoda";
 		<hr>
 		<div class="row">
 			<div class="col-6 d-flex mt-3">
-				<a href="https://wa.me/3318019637" target="_blank" class="btn btn-primary" style="margin-left: auto;">Confirma con Fer</a>
+				<a href="https://wa.me/3318019637" target="_blank" class="btn btn-primary" style="margin-left: auto;"><img src="img/icons/whatsapp.png" class="whatsapp-icon" alt="">Confirma con Fer</a>
 			</div>
 			<div class="col-6 d-flex justify-content-left mt-3">
-				<a href="https://wa.me/3326462099" target="_blank" class="btn btn-secondary">Confirma con Mikel</a>
+				<a href="https://wa.me/3326462099" target="_blank" class="btn btn-secondary"><img src="img/icons/whatsapp.png" class="whatsapp-icon" alt="">Confirma con Mikel</a>
 			</div>
 		</div>
 	</section>
