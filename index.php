@@ -15,7 +15,7 @@ const ROOT_PATH = "/nuevoBoda";
 	<!-- CUSTOM STYLE -->
 	<link rel="stylesheet" href="css/style.css">
 	<!-- COUNTDOWN -->
-	<script src="js/countdown.js?v=1.0.0" defer></script>
+	<script src="js/countdown.js?v=1.0.1" defer></script>
 </head>
 
 <body>

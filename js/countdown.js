@@ -1,4 +1,4 @@
-let countDownDate = new Date("2022-08-19 20:00:00").getTime();
+let countDownDate = new Date("2022-08-19T20:00:00").getTime();
 
 let daysDiv = document.getElementById('days');
 let hoursDiv = document.getElementById('hours');
