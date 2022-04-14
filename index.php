@@ -104,12 +104,39 @@ const ROOT_PATH = "/nuevoBoda";
 		<h3 class="text-center">Aquí tienes todo lo que debes saber sobre la boda</h3>
 		<hr>
 		<div class="row">
-			<div class="col-md-3 col-sm-12 mt-3">
+			<div class="col-md-4 col-sm-12 mt-3">
 				<div class="card">
 					<img src="img/cattaleya.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
-						<h4 class="text-center">Boda Civil</h4>
-						<p class="card-text text-center">En el salón de eventos Cattaleya a las 19:30</p>
+						<h4 class="text-center">Ceremonía civil y recepción</h4>
+						<p class="card-text text-center mt-3"><b>Terraza Cattaleya</b><br>La ceremonia civil y recepción se llevará a cabo a las 19:30</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12 mt-3">
+				<div class="card">
+					<img src="img/regalos.jpeg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h4 class="text-center">Sugerencia de regalos</h4>
+						<p class="card-text text-center mt-3"><b>De sobre</b><br>El mejor regalo es su asistencia, pero si desean ayudarnos con nuestra luna de miel habrá un buzón en la recepción donde podrán depositar su sobre<br><br><b>Mesa de regalos</b><br>O si lo prefieren tenemos una <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50435213" target="_blank">mesa de regalos en Liverpool</a><br>(número: 50435213)</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12 mt-3">
+				<div class="card">
+					<img src="img/vestimenta.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h4 class="text-center">Información importante</h4>
+						<p class="card-text text-center mt-3"><b>Codigo de vestimenta</b><br>Formal<br><br><b>Sin niños</b><br>Consideramos que una boda es un ambiente para adultos, por lo tanto esta celebración se relizará sin niños</p>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="col-md-3 col-sm-12 mt-3">
+				<div class="card">
+					<img src="img/cattaleya.jpeg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h4 class="text-center">Ceremonia h Civil</h4>
+						<p class="card-text text-center">19:30</p>
 					</div>
 				</div>
 			</div>
@@ -118,7 +145,6 @@ const ROOT_PATH = "/nuevoBoda";
 					<img src="img/coctel.jpg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h4 class="text-center">Recepción y cóctel</h4>
-						<p class="card-text text-center">Tendrá lugar a las 20:00</p>
 					</div>
 				</div>
 			</div>
@@ -127,7 +153,6 @@ const ROOT_PATH = "/nuevoBoda";
 					<img src="img/cena.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h4 class="text-center">Cena</h4>
-						<p class="card-text text-center">La cena se servirá de 21:00 a 22:00</p>
 					</div>
 				</div>
 			</div>
@@ -136,10 +161,9 @@ const ROOT_PATH = "/nuevoBoda";
 					<img src="img/fiesta.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h4 class="text-center">Fiesta</h4>
-						<p class="card-text text-center">Tendremos de 22:00 a 3:00 para mover el esqueleto</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 
 	</section>

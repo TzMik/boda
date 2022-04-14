@@ -5,10 +5,6 @@
     --boda-4: #9cb4a6;
 }
 
-body {
-    background-color: var(--boda-3);
-}
-
 @font-face {
     font-family: 'Parisienne';
     src: url('../fonts/Parisienne-Regular.ttf') format('truetype');
@@ -87,11 +83,11 @@ hr {
 }
 
 h4 {
-    color: white;
+    color: var(--boda-1);
 }
 
 h4 a {
-    color: white;
+    color: var(--boda-1);
 }
 
 h4 a:hover {
@@ -137,20 +133,25 @@ h4 a:hover {
 }
 
 .card-body {
-    background-color: var(--boda-1);
+    background-color: var(--boda-3);
 }
 
 .card-body p {
-    color: var(--boda-3);
+    color: var(--boda-2);
+}
+
+.card-body a {
+    color: var(--boda-1);
 }
 
 b {
     color: var(--boda-1);
 }
 
-#informacion .card {
-    height: 285px;
-}
+
+/* #informacion .card {
+    height: 250px;
+} */
 
 #estancia .card {
     height: 250px;
