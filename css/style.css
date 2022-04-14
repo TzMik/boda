@@ -1,0 +1,163 @@
+:root {
+    --boda-1: #414e3d;
+    --boda-2: #8c9292;
+    --boda-3: #dfe0d0;
+    --boda-4: #9cb4a6;
+}
+
+body {
+    background-color: var(--boda-3);
+}
+
+@font-face {
+    font-family: 'Parisienne';
+    src: url('../fonts/Parisienne-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+.boda-main-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/main.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boda-main-header h1,
+.boda-main-header h2 {
+    color: white;
+}
+
+.boda-main-header h1 {
+    font-family: 'Parisienne';
+    font-size: 4rem;
+}
+
+.boda-main-header h2 {
+    font-weight: lighter;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+iframe {
+    width: 100%;
+}
+
+.bg-light {
+    background-color: var(--boda-1);
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-toggler {
+    border-color: white !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+section h2 {
+    color: var(--boda-1);
+}
+
+section h3 {
+    color: var(--boda-2);
+    font-size: 1rem;
+}
+
+hr {
+    width: 3rem;
+    margin: 1rem auto;
+    border: solid 2px var(--boda-2);
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+h4 {
+    color: white;
+}
+
+h4 a {
+    color: white;
+}
+
+h4 a:hover {
+    color: var(--boda-4);
+}
+
+.card img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: var(--boda-1);
+    border-color: var(--boda-1);
+}
+
+.btn-primary:hover {
+    background-color: var(--boda-2);
+    border-color: var(--boda-2);
+}
+
+.btn-secondary {
+    background-color: var(--boda-2);
+    border-color: var(--boda-2);
+}
+
+.countdown-element {
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: .5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.countdown-title {
+    color: white;
+    font-size: .6rem;
+}
+
+.card-body {
+    background-color: var(--boda-1);
+}
+
+.card-body p {
+    color: var(--boda-3);
+}
+
+b {
+    color: var(--boda-1);
+}
+
+#informacion .card {
+    height: 285px;
+}
+
+#estancia .card {
+    height: 250px;
+}
+
+#estancia .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
