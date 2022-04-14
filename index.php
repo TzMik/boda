@@ -153,7 +153,7 @@ const ROOT_PATH = "/nuevoBoda";
 		<h2 class="text-center">Sugerencia de estancia</h2>
 		<h3 class="text-center">Estos son los hoteles que recomendamos en <b>Guadalajara</b></h3>
 		<hr>
-		<p>Para nuestros invitados que no sean de Guadalajara les recomendamos los siguientes hoteles. Las tres opciones son similares y lo bueno de dichas opciones es que están muy cerca del salón de eventos.</p>
+		<p class="text-justify">Para nuestros invitados que no sean de Guadalajara les recomendamos los siguientes hoteles. Las tres opciones son similares y lo bueno de dichas opciones es que están muy cerca del salón de eventos.</p>
 		<div class="row">
 			<div class="col-md-4 col-sm-12 mt-3">
 				<div class="card">
@@ -196,7 +196,7 @@ const ROOT_PATH = "/nuevoBoda";
 				<img src="img/vallarta.jpeg" alt="">
 			</div>
 			<div class="col-md-6 col-sm-12 mt-3">
-				<p>
+				<p class="text-justify">
 					Estamos planeando un viaje después de la boda a Nuevo Vallarta ¿Te interesa?. Planeamos ir al hotel <b>DREAMS VILLAMAGNA EN NUEVO VALLARTA</b> del día 22 al 25 de agosto. Les podemos pasar el número y correo electrónico de la encargada que nos está realizando todas las reservaciones, o si prefieren pueden hacerlo por medio de otra plataforma.
 				</p>
 			</div>

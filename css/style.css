@@ -171,3 +171,7 @@ b {
     display: flex;
     align-items: center;
 }
+
+.text-justify {
+    text-align: justify;
+}
