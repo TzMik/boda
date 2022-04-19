@@ -171,7 +171,7 @@ const ROOT_PATH = "/nuevoBoda";
 		<h2 class="text-center">Ubicación</h2>
 		<h3 class="text-center">Camino a las Moras 1535 San Agustín, 45640 Guadalajara, Jal.</h3>
 		<hr>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14934.193743932778!2d-103.3935244!3d20.647255!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x512a3b6725f9d6f1!2sPsic.%20FERNANDA%20QUIROGA!5e0!3m2!1ses!2smx!4v1649466222084!5m2!1ses!2smx" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119540.58571313121!2d-103.55010054179687!3d20.561770399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f54cb56244067%3A0xf59a6800d22d5d55!2sTerraza%20la%20Cattaleya!5e0!3m2!1ses-419!2smx!4v1650407859324!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	</section>
 	<section class="container mt-5" id="estancia">
 		<h2 class="text-center">Sugerencia de estancia</h2>
