@@ -43,7 +43,7 @@ const ROOT_PATH = "/nuevoBoda";
 					<div class="countdown-title">Segundos</div>
 				</div>
 			</div>
-            <!--<div class="d-flex justify-content-center mt-4">
+            <div class="d-flex justify-content-center mt-4">
                 <div title="Add to Calendar" class="addeventatc">
                     Añadir al calendario
                     <span class="start">08/19/2022 07:30 PM</span>
@@ -52,7 +52,7 @@ const ROOT_PATH = "/nuevoBoda";
                     <span class="title">Boda Fer Quiroga y Mikel Cantero</span>
                     <span class="location">Camino a las Moras 1535 San Agustín, 45640 Guadalajara, Jal.</span>
                 </div>
-            </div>-->
+            </div>
 		</div>
 	</div>
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
