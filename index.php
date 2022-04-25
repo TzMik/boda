@@ -17,6 +17,7 @@ const ROOT_PATH = "/nuevoBoda";
 	<!-- COUNTDOWN -->
 	<script src="js/countdown.js?v=1.0.1" defer></script>
     <!-- ADDEVENT -->
+    <link rel="stylesheet" href="libraries/addevent-1.6.1/css/theme6.css" type="text/css" media="screen">
     <script src="libraries/addevent-1.6.1/atc.min.js"></script>
 </head>
 
@@ -44,8 +45,9 @@ const ROOT_PATH = "/nuevoBoda";
 				</div>
 			</div>
             <div class="d-flex justify-content-center mt-4">
-                <div title="Add to Calendar" class="addeventatc">
+                <div title="Add to Calendar" class="addeventatc" data-styling="none">
                     Añadir al calendario
+                    <span class="arrow">&nbsp;</span>
                     <span class="start">08/19/2022 07:30 PM</span>
                     <span class="end">08/20/2022 03:00 AM</span>
                     <span class="timezone">America/Guadalajara</span>
