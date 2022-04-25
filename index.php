@@ -13,15 +13,17 @@ const ROOT_PATH = "/nuevoBoda";
 	<link rel="stylesheet" href="libraries/bootstrap-5.1.3-dist/css/bootstrap.min.css">
 	<script src="libraries/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 	<!-- CUSTOM STYLE -->
-	<link rel="stylesheet" href="css/style.css?v=1.0.0">
+	<link rel="stylesheet" href="css/style.css?v=1.0.1">
 	<!-- COUNTDOWN -->
 	<script src="js/countdown.js?v=1.0.1" defer></script>
+    <!-- ADDEVENT -->
+    <script src="libraries/addevent-1.6.1/atc.min.js"></script>
 </head>
 
 <body>
 	<div class="boda-main-header">
 		<div>
-			<h1 class="text-center">Fer & Mikel</h1>
+			<h1 class="text-center">Fer Quiroga<br> & <br>Mikel Cantero</h1>
 			<h2 class="text-center">19 de agosto del 2022</h2>
 			<div class="countdown d-flex justify-content-center mt-3">
 				<div class="text-center">
@@ -41,6 +43,16 @@ const ROOT_PATH = "/nuevoBoda";
 					<div class="countdown-title">Segundos</div>
 				</div>
 			</div>
+            <div class="d-flex justify-content-center mt-4">
+                <div title="Add to Calendar" class="addeventatc">
+                    Añadir al calendario
+                    <span class="start">08/19/2022 07:30 PM</span>
+                    <span class="end">08/20/2022 03:00 AM</span>
+                    <span class="timezone">America/Guadalajara</span>
+                    <span class="title">Boda Fer Quiroga y Mikel Cantero</span>
+                    <span class="location">Camino a las Moras 1535 San Agustín, 45640 Guadalajara, Jal.</span>
+                </div>
+            </div>
 		</div>
 	</div>
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
