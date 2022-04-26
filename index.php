@@ -208,7 +208,7 @@ const ROOT_PATH = "/nuevoBoda";
 					<img src="img/city-express.jpg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h4 class="text-center">
-							<a href="https://www.booking.com/hotel/mx/microtel-inn-suites-by-wyndham-guadalajara-sur.es-mx.html" target="_blank">CITY PLUS PALOMAR
+							<a href="https://www.booking.com/hotel/mx/city-express-plus-guadalajara-palomar.es-mx.html" target="_blank">CITY PLUS PALOMAR
 						</h4></a>
 					</div>
 				</div>
@@ -218,7 +218,7 @@ const ROOT_PATH = "/nuevoBoda";
 					<img src="img/microtel.jpg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h4 class="text-center">
-							<a href="https://www.booking.com/searchresults.es.html?aid=318615;label=Spanish_Mexico_ES_MX_29562092065-cLT9fzE7SIMemTvcIRTruwS217246155567%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi2133569918%3Atidsa-322982440308%3Alp1010088%3Ali%3Adec%3Adm;sid=128b0b9c06131c79414a7a3d532be46f;city=-1669612;expand_sb=1;highlighted_hotels=1442306;hlrd=no_dates;keep_landing=1;redirected=1;source=hotel&gclid=CjwKCAjwrqqSBhBbEiwAlQeqGgPbU3FSoi2IaRcM3Ot7cGJ1vrKJl-Vs8IeOrG6RUP__mk3QAynY8hoCzjsQAvD_BwE&room1=A,A" target="_blank">MICROTEL INN & SUITES BY WYNDHAM
+							<a href="https://www.booking.com/hotel/mx/microtel-inn-suites-by-wyndham-guadalajara-sur.es-mx.html" target="_blank">MICROTEL INN & SUITES BY WYNDHAM
 						</h4></a>
 					</div>
 				</div>
