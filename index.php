@@ -13,7 +13,7 @@ const ROOT_PATH = "/nuevoBoda";
     <link rel="stylesheet" href="libraries/bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <script src="libraries/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
     <!-- CUSTOM STYLE -->
-    <link rel="stylesheet" href="css/style.css?v=1.0.2">
+    <link rel="stylesheet" href="css/style.css?v=1.0.3">
     <!-- COUNTDOWN -->
     <script src="js/countdown.js?v=1.0.1" defer></script>
     <!-- ADDEVENT -->
