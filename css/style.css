@@ -3,16 +3,26 @@
     --boda-2: #8c9292;
     --boda-3: #dfe0d0;
     --boda-4: #9cb4a6;
+    --background-1: #ebebeb;
+    --background-2: #e0e1e6;
 }
 
 @font-face {
-    font-family: 'Parisienne';
-    src: url('../fonts/Parisienne-Regular.ttf') format('truetype');
+    font-family: 'Yanone Kaffeesatz';
+    src: url(../fonts/YanoneKaffeesatz.ttf) format('truetype');
     font-display: swap;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Yanone Kaffeesatz';
+    src: url(../fonts/YanoneKaffeesatz400.ttf) format('truetype');
+    font-display: swap;
+    font-weight: 400;
 }
 
 .boda-main-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/main.jpeg) no-repeat center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/main-background.jpeg) no-repeat center fixed;
     height: 100vh;
     width: 100%;
     -webkit-background-size: cover;
@@ -22,6 +32,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boda-main-header>div {
+    width: 27rem;
+    background-color: rgb(0, 0, 0, 40%);
+    padding: 3rem;
+    border-radius: 50% 50% 0 0;
+}
+
+.boda-main-header  h1 {
+    font-family: Yanone Kaffeesatz;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.boda-main-header h2 {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+
+
+.top-radius-img {
+    border-radius: 50% 50% 0 0;
+}
+
+.bottom-radius-img {
+    border-radius: 0 0 50% 50%;
 }
 
 @supports (-webkit-touch-callout: none) {
@@ -36,15 +74,6 @@
     color: white;
 }
 
-.boda-main-header h1 {
-    font-family: 'Parisienne';
-    font-size: 3rem;
-}
-
-.boda-main-header h2 {
-    font-weight: lighter;
-}
-
 img {
     width: 100%;
     height: auto;
@@ -54,24 +83,11 @@ iframe {
     width: 100%;
 }
 
-.bg-light {
-    background-color: var(--boda-1);
-}
-
-.nav-link {
-    color: white !important;
-}
-
-.navbar-toggler {
-    border-color: white !important;
-}
-
-.navbar-toggler-icon {
-    filter: invert(1);
-}
-
 section h2 {
-    color: var(--boda-1);
+    font-family: Yanone Kaffeesatz;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 3rem;
 }
 
 section h3 {
@@ -89,6 +105,15 @@ hr {
     width: 100%;
 }
 
+.navbar-nav span {
+    font-family: Yanone Kaffeesatz;
+    margin: auto 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
 h4 {
     color: var(--boda-1);
 }
@@ -99,11 +124,6 @@ h4 a {
 
 h4 a:hover {
     color: var(--boda-4);
-}
-
-.card img {
-    height: 150px;
-    object-fit: cover;
 }
 
 .btn-primary {
@@ -122,13 +142,15 @@ h4 a:hover {
 }
 
 .countdown-element {
+    font-family: Yanone Kaffeesatz;
+    font-weight: 400;
     height: 4rem;
     width: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(167, 167, 167, 0.5);
     margin: .5rem;
     color: white;
     font-size: 1.5rem;
@@ -137,37 +159,6 @@ h4 a:hover {
 .countdown-title {
     color: white;
     font-size: .6rem;
-}
-
-.card-body {
-    background-color: var(--boda-3);
-}
-
-.card-body p {
-    color: var(--boda-2);
-}
-
-.card-body a {
-    color: var(--boda-1);
-}
-
-b {
-    color: var(--boda-1);
-}
-
-
-/* #informacion .card {
-    height: 250px;
-} */
-
-#estancia .card {
-    height: 250px;
-}
-
-#estancia .card-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .whatsapp-icon {
@@ -182,4 +173,109 @@ b {
 
 .text-justify {
     text-align: justify;
+}
+
+.text-right {
+    text-align: right;
+}
+
+#novios>.row {
+    display: flex;
+}
+
+hr {
+    border: 1px var(--boda-2) solid;
+    width: 60%;
+}
+
+.evento-icons {
+    margin-right: 1rem;
+    opacity: 50%;
+}
+
+.section-image {
+    min-height: 20rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#info-img {
+    background-image: url(../img/cattaleya.jpeg);
+    border-radius: 0 0 50% 50%;
+}
+
+#img-vallarta {
+    background-image: url(../img/vallarta.jpeg);
+    border-radius: 50% 50% 0 0;
+}
+
+#fer-img {
+    background-image: url(../img/fer.jpeg);
+    border-radius: 50% 50% 0 0;
+}
+
+#mikel-img {
+    background-image: url(../img/mikel.jpeg);
+    border-radius: 0 0 50% 50%;
+}
+
+#nos-casamos-img {
+    background-image: url(../img/puerta.jpeg);
+    border-radius: 50% 50% 0 0;
+}
+
+#informacion,
+#estancia {
+    background-color: var(--background-1);
+}
+
+#estancia img {
+    min-height: 277px;
+}
+
+#estancia h3 {
+    text-align: center;
+    font-family: Yanone Kaffeesatz;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+#estancia h3 a {
+    color: var(--bs-body-color);
+}
+
+#asistencia>div {
+    background-color: var(--background-2);
+    min-height: 35rem;
+    width: 50%;
+    border-radius: 50% 50% 0 0;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav span {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .boda-main-header>div {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 757px) {
+    #asistencia>div {
+        width: 80%;
+    }
+}
+
+@media (max-width: 482px) {
+    .confirm-buttons {
+        display: flex;
+        justify-content: center;
+    }
+    .confirm-buttons a {
+        margin: 0.25rem;
+    }
 }
