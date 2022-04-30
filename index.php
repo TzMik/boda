@@ -18,7 +18,7 @@ const ROOT_PATH = "/nuevoBoda";
     <script src="js/countdown.js?v=1.0.1" defer></script>
     <!-- ADDEVENT -->
     <link rel="stylesheet" href="libraries/addevent-1.6.1/css/theme6.css" type="text/css" media="screen">
-    <script src="libraries/addevent-1.6.1/atc.min.js"></script>
+    <script src="libraries/addevent-1.6.1/atc.min.js?v=1.0.0"></script>
 </head>
 
 <body>
