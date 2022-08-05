@@ -137,7 +137,7 @@ const ROOT_PATH = "/nuevoBoda";
             <p class="mt-3">
                 <b>Ceremonía civil y recepción</b>
                 <br>
-                Será en la Terraza Cattaleya y se llevará a cabo a las 19:30
+                Será en la Terraza Cattaleya y se llevará a cabo a las 20:00
             </p>
             <p class="mt-3">
                 <b>Sugerencia de regalos</b>
